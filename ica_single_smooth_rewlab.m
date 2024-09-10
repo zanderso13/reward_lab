@@ -1,0 +1,39 @@
+
+function ica_single_smooth_rewlab(PID,ses,run,overwrite)
+%% var set up
+if nargin==0 % defaults just for testing
+    PID = 'RiDE003';  
+    overwrite = 1;
+    ses = 'thc';
+    run = 1;
+end
+
+preproc_dir = '/projects/p30954/reward_lab/fmriprep';
+
+if nargin==1
+    overwrite = 1;
+end  
+
+PID = strcat('sub-',PID);
+ndummies=0;
+% FL directory for saving 1st level results: beta images, SPM.mat, etc.
+% in{1} = {fullfile(fl_dir, PID, strcat('ses-',num2str(ses)), strcat('run-', num2str(run)), 'MID')};
+
+rundir = fullfile(preproc_dir, PID, strcat('ses-', num2str(ses)),'func');
+
+in{1} = cellstr(spm_select('ExtFPList', rundir, strcat('.*task-rest_run-1_space-MNI152NLin2009cAsym_desc-preproc_bold.nii'), ndummies+1:9999));
+
+if isempty(in{1}{1})
+    warning('No preprocd functional found')
+    return
+end
+
+%jobfile = {'/home/zaz3744/repo/dissertation_analyses/smooth_template.m'};
+jobs = 'ica_smooth_rewlab_template.m';
+
+
+spm('defaults', 'FMRI');
+spm_jobman('run', jobs, in{:});
+
+
+end

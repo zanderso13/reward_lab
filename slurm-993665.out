@@ -1,0 +1,1524 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021b Update 1 (9.11.0.1809720) 64-bit (glnxa64)
+                              November 2, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Function iscolumn has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function ismatrix has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function isrow has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function narginchk has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function isequaln has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function contains has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function endsWith has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function newline has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function startsWith has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function isfile has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function isfolder has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+Reading parameters for group ICA ...
+Reading parameters for getting input data files ...
+Done reading variables for getting input data files
+
+Creating Mask
+Default mask includes voxels >= mean. Using first file of each subject to create default mask ...
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 1).
+Done Creating Mask
+Spatial reference image dimensions ([53  63  52]) are not equal to functional image dimensions ([47  57  56]). Resizing template image/images to match functional image
+
+Coregistering /home/zaz3744/repo/gift/GroupICAT/icatb/icatb_templates/Neuromark_fMRI_1.0.nii,1 to /projects/p30954/reward_lab/fmriprep/sub-RiDE017/ses-thc/func/sub-RiDE017_ses-thc_task-SmoothRest_run-1_space-MNI152NLin2009cAsym_desc-preproc_bold.nii,1 ...
+Reslicing ...
+Done
+ Parameters are saved in /projects/p30954/reward_lab/gift_out_spatial/RiDE_ica_parameter_info.mat
+
+Starting Analysis 
+
+ 
+------------------------------------------------------------------------------------
+GETTING DATA REDUCTION PARAMETERS----------------------
+------------------------------------------------------------------------------------
+ Reduction step 1 starts with 66 groups and gets reduced to 66 groups
+    -New Group #1: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #2: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #3: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #4: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #5: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #6: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #7: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #8: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #9: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #10: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #11: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #12: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #13: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #14: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #15: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #16: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #17: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #18: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #19: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #20: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #21: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #22: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #23: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #24: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #25: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #26: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #27: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #28: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #29: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #30: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #31: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #32: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #33: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #34: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #35: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #36: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #37: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #38: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #39: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #40: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #41: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #42: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #43: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #44: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #45: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #46: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #47: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #48: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #49: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #50: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #51: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #52: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #53: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #54: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #55: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #56: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #57: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #58: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #59: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #60: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #61: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #62: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #63: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #64: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #65: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+    -New Group #66: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 240 BOLD timepoints
+     The new group will have a total of 240 stacked BOLD timepoints
+     This group will then be reduced to 53 principal components
+------------------------------------------------------------------------------------
+END GETTING DATA REDUCTION PARAMETERS----------------------
+------------------------------------------------------------------------------------
+ 
+Checking to make sure parameters are correct...
+  Checking mask 
+  Checking principal component parameters
+Done with parameter error check 
+ 
+---------------------------------------------------------------------
+STARTING CONSTRAINED ICA (SPATIAL)
+---------------------------------------------------------------------
+Using spatial ica ...
+Calculating ICA on data-set 4
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.9845
+
+-saving back reconstructed ica data for set 4 -> RiDE_ica_br4.mat
+Done
+Calculating ICA on data-set 3
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8355
+
+-saving back reconstructed ica data for set 3 -> RiDE_ica_br3.mat
+Done
+Calculating ICA on data-set 2
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8554
+
+-saving back reconstructed ica data for set 2 -> RiDE_ica_br2.mat
+Done
+Calculating ICA on data-set 1
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8277
+
+-saving back reconstructed ica data for set 1 -> RiDE_ica_br1.mat
+Done
+Calculating ICA on data-set 35
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8703
+
+-saving back reconstructed ica data for set 35 -> RiDE_ica_br35.mat
+Done
+Calculating ICA on data-set 34
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8251
+
+-saving back reconstructed ica data for set 34 -> RiDE_ica_br34.mat
+Done
+Calculating ICA on data-set 33
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8119
+
+-saving back reconstructed ica data for set 33 -> RiDE_ica_br33.mat
+Done
+Calculating ICA on data-set 32
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8360
+
+-saving back reconstructed ica data for set 32 -> RiDE_ica_br32.mat
+Done
+Calculating ICA on data-set 31
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8210
+
+-saving back reconstructed ica data for set 31 -> RiDE_ica_br31.mat
+Done
+Calculating ICA on data-set 30
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8253
+
+-saving back reconstructed ica data for set 30 -> RiDE_ica_br30.mat
+Done
+Calculating ICA on data-set 29
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8113
+
+-saving back reconstructed ica data for set 29 -> RiDE_ica_br29.mat
+Done
+Calculating ICA on data-set 28
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8289
+
+-saving back reconstructed ica data for set 28 -> RiDE_ica_br28.mat
+Done
+Calculating ICA on data-set 27
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8153
+
+-saving back reconstructed ica data for set 27 -> RiDE_ica_br27.mat
+Done
+Calculating ICA on data-set 26
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8099
+
+-saving back reconstructed ica data for set 26 -> RiDE_ica_br26.mat
+Done
+Calculating ICA on data-set 25
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8209
+
+-saving back reconstructed ica data for set 25 -> RiDE_ica_br25.mat
+Done
+Calculating ICA on data-set 24
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8186
+
+-saving back reconstructed ica data for set 24 -> RiDE_ica_br24.mat
+Done
+Calculating ICA on data-set 23
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8592
+
+-saving back reconstructed ica data for set 23 -> RiDE_ica_br23.mat
+Done
+Calculating ICA on data-set 22
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    1.8231
+
+-saving back reconstructed ica data for set 22 -> RiDE_ica_br22.mat
+Done
+Calculating ICA on data-set 21
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.0873
+
+-saving back reconstructed ica data for set 21 -> RiDE_ica_br21.mat
+Done
+Calculating ICA on data-set 20
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1476
+
+-saving back reconstructed ica data for set 20 -> RiDE_ica_br20.mat
+Done
+Calculating ICA on data-set 19
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.2305
+
+-saving back reconstructed ica data for set 19 -> RiDE_ica_br19.mat
+Done
+Calculating ICA on data-set 18
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1912
+
+-saving back reconstructed ica data for set 18 -> RiDE_ica_br18.mat
+Done
+Calculating ICA on data-set 17
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1541
+
+-saving back reconstructed ica data for set 17 -> RiDE_ica_br17.mat
+Done
+Calculating ICA on data-set 16
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1828
+
+-saving back reconstructed ica data for set 16 -> RiDE_ica_br16.mat
+Done
+Calculating ICA on data-set 15
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1947
+
+-saving back reconstructed ica data for set 15 -> RiDE_ica_br15.mat
+Done
+Calculating ICA on data-set 14
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1929
+
+-saving back reconstructed ica data for set 14 -> RiDE_ica_br14.mat
+Done
+Calculating ICA on data-set 13
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1984
+
+-saving back reconstructed ica data for set 13 -> RiDE_ica_br13.mat
+Done
+Calculating ICA on data-set 12
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1931
+
+-saving back reconstructed ica data for set 12 -> RiDE_ica_br12.mat
+Done
+Calculating ICA on data-set 11
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1939
+
+-saving back reconstructed ica data for set 11 -> RiDE_ica_br11.mat
+Done
+Calculating ICA on data-set 10
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.1953
+
+-saving back reconstructed ica data for set 10 -> RiDE_ica_br10.mat
+Done
+Calculating ICA on data-set 9
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6455
+
+-saving back reconstructed ica data for set 9 -> RiDE_ica_br9.mat
+Done
+Calculating ICA on data-set 8
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5182
+
+-saving back reconstructed ica data for set 8 -> RiDE_ica_br8.mat
+Done
+Calculating ICA on data-set 7
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5084
+
+-saving back reconstructed ica data for set 7 -> RiDE_ica_br7.mat
+Done
+Calculating ICA on data-set 6
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5128
+
+-saving back reconstructed ica data for set 6 -> RiDE_ica_br6.mat
+Done
+Calculating ICA on data-set 5
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6050
+
+-saving back reconstructed ica data for set 5 -> RiDE_ica_br5.mat
+Done
+Calculating ICA on data-set 51
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6217
+
+-saving back reconstructed ica data for set 51 -> RiDE_ica_br51.mat
+Done
+Calculating ICA on data-set 50
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5002
+
+-saving back reconstructed ica data for set 50 -> RiDE_ica_br50.mat
+Done
+Calculating ICA on data-set 49
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5245
+
+-saving back reconstructed ica data for set 49 -> RiDE_ica_br49.mat
+Done
+Calculating ICA on data-set 48
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5136
+
+-saving back reconstructed ica data for set 48 -> RiDE_ica_br48.mat
+Done
+Calculating ICA on data-set 47
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6065
+
+-saving back reconstructed ica data for set 47 -> RiDE_ica_br47.mat
+Done
+Calculating ICA on data-set 46
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6297
+
+-saving back reconstructed ica data for set 46 -> RiDE_ica_br46.mat
+Done
+Calculating ICA on data-set 45
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5377
+
+-saving back reconstructed ica data for set 45 -> RiDE_ica_br45.mat
+Done
+Calculating ICA on data-set 44
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5159
+
+-saving back reconstructed ica data for set 44 -> RiDE_ica_br44.mat
+Done
+Calculating ICA on data-set 43
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5183
+
+-saving back reconstructed ica data for set 43 -> RiDE_ica_br43.mat
+Done
+Calculating ICA on data-set 42
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5571
+
+-saving back reconstructed ica data for set 42 -> RiDE_ica_br42.mat
+Done
+Calculating ICA on data-set 41
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6130
+
+-saving back reconstructed ica data for set 41 -> RiDE_ica_br41.mat
+Done
+Calculating ICA on data-set 40
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5688
+
+-saving back reconstructed ica data for set 40 -> RiDE_ica_br40.mat
+Done
+Calculating ICA on data-set 39
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5156
+
+-saving back reconstructed ica data for set 39 -> RiDE_ica_br39.mat
+Done
+Calculating ICA on data-set 38
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5138
+
+-saving back reconstructed ica data for set 38 -> RiDE_ica_br38.mat
+Done
+Calculating ICA on data-set 37
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5490
+
+-saving back reconstructed ica data for set 37 -> RiDE_ica_br37.mat
+Done
+Calculating ICA on data-set 36
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6231
+
+-saving back reconstructed ica data for set 36 -> RiDE_ica_br36.mat
+Done
+Calculating ICA on data-set 59
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5692
+
+-saving back reconstructed ica data for set 59 -> RiDE_ica_br59.mat
+Done
+Calculating ICA on data-set 58
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5064
+
+-saving back reconstructed ica data for set 58 -> RiDE_ica_br58.mat
+Done
+Calculating ICA on data-set 57
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.4941
+
+-saving back reconstructed ica data for set 57 -> RiDE_ica_br57.mat
+Done
+Calculating ICA on data-set 56
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.4994
+
+-saving back reconstructed ica data for set 56 -> RiDE_ica_br56.mat
+Done
+Calculating ICA on data-set 55
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5265
+
+-saving back reconstructed ica data for set 55 -> RiDE_ica_br55.mat
+Done
+Calculating ICA on data-set 54
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5655
+
+-saving back reconstructed ica data for set 54 -> RiDE_ica_br54.mat
+Done
+Calculating ICA on data-set 53
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6163
+
+-saving back reconstructed ica data for set 53 -> RiDE_ica_br53.mat
+Done
+Calculating ICA on data-set 52
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6311
+
+-saving back reconstructed ica data for set 52 -> RiDE_ica_br52.mat
+Done
+Calculating ICA on data-set 63
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5288
+
+-saving back reconstructed ica data for set 63 -> RiDE_ica_br63.mat
+Done
+Calculating ICA on data-set 62
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.4928
+
+-saving back reconstructed ica data for set 62 -> RiDE_ica_br62.mat
+Done
+Calculating ICA on data-set 61
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.4972
+
+-saving back reconstructed ica data for set 61 -> RiDE_ica_br61.mat
+Done
+Calculating ICA on data-set 60
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5080
+
+-saving back reconstructed ica data for set 60 -> RiDE_ica_br60.mat
+Done
+Calculating ICA on data-set 66
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5638
+
+-saving back reconstructed ica data for set 66 -> RiDE_ica_br66.mat
+Done
+Calculating ICA on data-set 65
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.6171
+
+-saving back reconstructed ica data for set 65 -> RiDE_ica_br65.mat
+Done
+Calculating ICA on data-set 64
+Using Intensity Normalization ...
+Using Singular Value Decomposition to do PCA
+100% of (non-zero) eigenvalues retained.
+Done
+
+computed ( 2 steps ) 
+
+t_fixed_Cor =
+
+    2.5676
+
+-saving back reconstructed ica data for set 64 -> RiDE_ica_br64.mat
+Done
+---------------------------------------------------------------------
+DONE CALCULATING CONSTRAINED ICA (SPATIAL)
+---------------------------------------------------------------------
+ 
+---------------------------------------------------------------------
+STARTING TO SCALE COMPONENT SETS
+---------------------------------------------------------------------
+Computing offset using the mean component maps which will be subtracted to the subject component maps ...
+Done
+--Subject 2 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 2 session 2 in nifti format and as matlab file
+--Subject 2 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 2 session 1 in nifti format and as matlab file
+--Subject 1 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 2 in nifti format and as matlab file
+--Subject 1 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 1 in nifti format and as matlab file
+--Subject 18 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 18 session 1 in nifti format and as matlab file
+--Subject 17 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 17 session 2 in nifti format and as matlab file
+--Subject 17 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 17 session 1 in nifti format and as matlab file
+--Subject 16 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 16 session 2 in nifti format and as matlab file
+--Subject 16 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 16 session 1 in nifti format and as matlab file
+--Subject 15 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 15 session 2 in nifti format and as matlab file
+--Subject 15 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 15 session 1 in nifti format and as matlab file
+--Subject 14 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 14 session 2 in nifti format and as matlab file
+--Subject 14 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 14 session 1 in nifti format and as matlab file
+--Subject 13 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 13 session 2 in nifti format and as matlab file
+--Subject 13 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 13 session 1 in nifti format and as matlab file
+--Subject 12 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 12 session 2 in nifti format and as matlab file
+--Subject 12 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 12 session 1 in nifti format and as matlab file
+--Subject 11 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 11 session 2 in nifti format and as matlab file
+--Subject 11 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 11 session 1 in nifti format and as matlab file
+--Subject 10 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 10 session 2 in nifti format and as matlab file
+--Subject 10 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 10 session 1 in nifti format and as matlab file
+--Subject 9 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 9 session 2 in nifti format and as matlab file
+--Subject 9 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 9 session 1 in nifti format and as matlab file
+--Subject 8 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 8 session 2 in nifti format and as matlab file
+--Subject 8 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 8 session 1 in nifti format and as matlab file
+--Subject 7 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 7 session 2 in nifti format and as matlab file
+--Subject 7 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 7 session 1 in nifti format and as matlab file
+--Subject 6 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 6 session 2 in nifti format and as matlab file
+--Subject 6 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 6 session 1 in nifti format and as matlab file
+--Subject 5 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 5 session 2 in nifti format and as matlab file
+--Subject 5 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 5 session 1 in nifti format and as matlab file
+--Subject 4 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 4 session 2 in nifti format and as matlab file
+--Subject 4 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 4 session 1 in nifti format and as matlab file
+--Subject 3 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 3 session 2 in nifti format and as matlab file
+--Subject 3 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 3 session 1 in nifti format and as matlab file
+--Subject 26 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 26 session 1 in nifti format and as matlab file
+--Subject 25 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 25 session 2 in nifti format and as matlab file
+--Subject 25 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 25 session 1 in nifti format and as matlab file
+--Subject 24 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 24 session 2 in nifti format and as matlab file
+--Subject 24 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 24 session 1 in nifti format and as matlab file
+--Subject 23 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 23 session 2 in nifti format and as matlab file
+--Subject 23 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 23 session 1 in nifti format and as matlab file
+--Subject 22 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 22 session 2 in nifti format and as matlab file
+--Subject 22 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 22 session 1 in nifti format and as matlab file
+--Subject 21 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 21 session 2 in nifti format and as matlab file
+--Subject 21 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 21 session 1 in nifti format and as matlab file
+--Subject 20 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 20 session 2 in nifti format and as matlab file
+--Subject 20 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 20 session 1 in nifti format and as matlab file
+--Subject 19 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 19 session 2 in nifti format and as matlab file
+--Subject 19 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 19 session 1 in nifti format and as matlab file
+--Subject 18 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 18 session 2 in nifti format and as matlab file
+--Subject 30 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 30 session 1 in nifti format and as matlab file
+--Subject 29 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 29 session 2 in nifti format and as matlab file
+--Subject 29 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 29 session 1 in nifti format and as matlab file
+--Subject 28 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 28 session 2 in nifti format and as matlab file
+--Subject 28 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 28 session 1 in nifti format and as matlab file
+--Subject 27 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 27 session 2 in nifti format and as matlab file
+--Subject 27 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 27 session 1 in nifti format and as matlab file
+--Subject 26 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 26 session 2 in nifti format and as matlab file
+--Subject 32 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 32 session 1 in nifti format and as matlab file
+--Subject 31 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 31 session 2 in nifti format and as matlab file
+--Subject 31 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 31 session 1 in nifti format and as matlab file
+--Subject 30 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 30 session 2 in nifti format and as matlab file
+--Subject 33 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 33 session 2 in nifti format and as matlab file
+--Subject 33 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 33 session 1 in nifti format and as matlab file
+--Subject 32 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 32 session 2 in nifti format and as matlab file
+---------------------------------------------------------------------
+DONE SCALING COMPONENTS
+---------------------------------------------------------------------
+ 
+ 
+---------------------------------------------------------------------
+STARTING GROUP STATS STEP
+---------------------------------------------------------------------
+--calculating mean ica component and timecourse
+done calculating mean for session 1
+done calculating mean for session 2
+done calculating mean for different sessions
+--calculating variance and standard deviation of components
+done calculating variance and standard deviation
+--calculating tmaps
+done calculating tmaps
+...saving group stats data...
+Head motion covariates are not provided...
+
+Computing spectra and FNC correlations of all subjects and sessions components ...
+Timecourses will be despiked when computing FNC correlations...
+Timecourses will be filtered when computing FNC correlations using HF cutoff of 0.15 Hz ...
+Computing spectra, fnc, etc, ...
+Saving files incrementally ...
+Done
+
+File /projects/p30954/reward_lab/gift_out_spatial/RiDE_postprocess_results.mat contains spectra and FNC correlations
+spectra_tc_all - Timecourses spectra. spectra_tc_all variable is of dimensions subjects x sessions x spectral length x components
+fnc_corrs_all - FNC correlations transformed to fisher z-scores. fnc_corrs_all variable is of dimensions subjects x sessions x components x components
+---------------------------------------------------------------------
+ENDING GROUP STATS STEP
+---------------------------------------------------------------------
+ 
+Parallel pool using the 'local' profile is shutting down.
+Time taken to run the analysis is 860.5885 seconds
+
+All the analysis information is stored in the file /projects/p30954/reward_lab/gift_out_spatial/RiDE_results.log
+Finished with Analysis
+

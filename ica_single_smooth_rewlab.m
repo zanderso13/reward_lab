@@ -2,7 +2,7 @@
 function ica_single_smooth_rewlab(PID,ses,run,overwrite)
 %% var set up
 if nargin==0 % defaults just for testing
-    PID = 'RiDE003';  
+    PID = 'RiDE133';  
     overwrite = 1;
     ses = 'thc';
     run = 1;

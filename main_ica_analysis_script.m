@@ -5,8 +5,8 @@
 basedir = '/projects/p30954/reward_lab/fmriprep';
 cd(basedir)
 
-pbo_rest_fnames = filenames(fullfile('sub*/ses-placebo/func/ssub*rest*nii'));
-thc_rest_fnames = filenames(fullfile('sub*/ses-thc/func/ssub*rest*nii'));
+pbo_rest_fnames = filenames(fullfile('sub*/ses-placebo/func/sub*Smooth*nii'));
+thc_rest_fnames = filenames(fullfile('sub*/ses-thc/func/sub*Smooth*nii'));
 
 % apply motion criteria and check for single sessions (no within sub)
 fd_cutoff = 0.3;
@@ -45,7 +45,7 @@ function [final_fnames_thc,final_fnames_pbo,motion] = check_motion(fnames_thc,fn
 
     final_fnames_thc = fnames_thc';
     % check final list for motion problems
-
+    
     for sub = 1:length(final_fnames_thc)
         pid = final_fnames_thc{sub}(1:11);
         thc_motion = filenames(fullfile(pid,strcat('/ses-thc/func/',pid,'*rest*confounds_timeseries.txt')));
@@ -68,6 +68,7 @@ function [final_fnames_thc,final_fnames_pbo,motion] = check_motion(fnames_thc,fn
         motion(sub,:) = [nanmean(fd_pbo),nanmean(fd_thc)];
     end
     % final fnames for the thc session
+    % at 0.3: sub-RiDE039 and sub-RiDE122 are excluded
     final_fnames_thc(logical(motion_idx))=[];
     
     % final fnames for the placebo session. I'm also going to make sure
